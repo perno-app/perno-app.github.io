@@ -1,0 +1,24 @@
+/* I caratteri di PERNO, serviti dal sito stesso: nessuna richiesta a Google o ad altri.
+   Sono gli stessi file dell'app (app/assets/fonts), ridotti ai caratteri latini.
+   Licenza SIL Open Font License: vedi i file OFL-*.txt in questa cartella. */
+@font-face {
+  font-family: "Newsreader";
+  src: url("/caratteri/newsreader.woff") format("woff");
+  font-weight: 200 800;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Hanken Grotesk";
+  src: url("/caratteri/hanken-grotesk.woff") format("woff");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "IBM Plex Mono";
+  src: url("/caratteri/ibm-plex-mono-500.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}

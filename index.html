@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PERNO — La memoria di casa</title>
+<meta name="description" content="Scadenze, spese, documenti e oggetti in un'app sola, condivisa con chi vive con te. PERNO ricorda, avvisa e fa i conti. In arrivo su Android e iOS.">
+<meta property="og:title" content="PERNO — La memoria di casa">
+<meta property="og:description" content="Scadenze, spese, documenti e oggetti in un'app sola, condivisa con chi vive con te.">
+<meta property="og:url" content="https://pernoapp.com/">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://pernoapp.com/immagini/home.webp">
+<meta name="theme-color" content="#F5F6F3" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0F172A" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/caratteri/caratteri.css">
+<link rel="stylesheet" href="/stile.css">
+<script>document.documentElement.classList.add("js"); if (/[?&]movimento\b/.test(location.search)) document.documentElement.classList.add("movimento");</script>
+</head>
+<body>
+
+<header class="testata" id="testata">
+  <div class="pagina testata-dentro">
+    <a class="marchio" href="#inizio" aria-label="PERNO, torna all'inizio">
+      <svg viewBox="0 0 200 200" aria-hidden="true">
+        <path d="M68 30.73A59 59 0 1 1 68 119.27Z M138 75A31 31 0 1 0 76 75A31 31 0 1 0 138 75Z" fill="#10B981" fill-rule="evenodd"/>
+        <rect x="35" y="27" width="28" height="146" rx="14" fill="var(--tratto)"/>
+      </svg>
+      <span>PERNO</span>
+    </a>
+    <button class="menu-pulsante" id="menu-pulsante" aria-expanded="false" aria-controls="menu" aria-label="Apri il menu">
+      <span></span><span></span>
+    </button>
+    <nav class="menu" id="menu" aria-label="Sezioni della pagina">
+      <a href="#perche-serve">Cos'è</a>
+      <a href="#come-si-usa">Come si usa</a>
+      <a href="#cosa-fa">Cosa fa</a>
+      <a href="#perche">Perché PERNO</a>
+      <a href="#domande">Domande</a>
+      <a class="menu-instagram" href="https://www.instagram.com/pernoapp/">Instagram</a>
+    </nav>
+  </div>
+</header>
+
+<main id="inizio">
+
+<!-- ============ APERTURA ============ -->
+<section class="apertura">
+  <div class="pagina apertura-griglia">
+    <div class="apertura-testo">
+      <div class="avvitamento" aria-hidden="true">
+        <svg viewBox="30 12 142 166" class="avv-marchio">
+          <defs><clipPath id="taglio"><rect x="68" y="0" width="200" height="200"/></clipPath></defs>
+          <g clip-path="url(#taglio)">
+            <circle id="avv-anello" cx="107" cy="75" r="45" fill="none" stroke="#10B981" stroke-width="28" pathLength="100" stroke-dasharray="0 100"/>
+          </g>
+          <rect id="avv-asta" x="35" y="27" width="28" height="146" rx="14" fill="var(--tratto)"/>
+        </svg>
+        <div class="avv-scritte">
+          <span class="avv-nome" id="avv-nome">PERNO</span>
+          <span class="avv-payoff" id="avv-payoff">Your Home &amp; Life Hub</span>
+        </div>
+      </div>
+      <h1 class="entra">La memoria di casa, <em>condivisa con chi ci vive.</em></h1>
+      <p class="sotto entra">Bollo, caldaia, compleanni, spese, documenti, le chiavi di scorta. PERNO tiene tutto in un posto, ti avvisa prima che sia tardi e fa i conti con chi vive con te.</p>
+      <div class="azioni entra">
+        <span class="pillola">In arrivo su Android e iOS</span>
+        <a class="link-giu" href="#come-si-usa">Guarda come funziona <span aria-hidden="true">↓</span></a>
+      </div>
+    </div>
+    <div class="telefono telefono-grande entra"><div class="schermo"><div class="barra-stato" aria-hidden="true"><span class="ora">9:41</span><span class="foro"></span><svg class="segnali" viewBox="0 0 58 16"><path d="M8 14 1.2 7.2a9.6 9.6 0 0 1 13.6 0Z"/><path d="M19 14 31 2v12Z"/><rect x="41" y="1.5" width="8.5" height="13" rx="1.8"/><rect x="43.5" y="0" width="3.5" height="2" rx=".6"/></svg></div>
+      <video class="video-auto" muted playsinline loop preload="metadata" poster="/immagini/home.webp" aria-label="PERNO si apre con il logo e mostra la Home: le scadenze in arrivo e le sei sezioni.">
+        <source src="/video/avvio.mp4" type="video/mp4">
+      </video></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ IL PROBLEMA ============ -->
+<section class="blocco" id="perche-serve">
+  <div class="pagina problema">
+    <div class="problema-testo rivela">
+      <p class="etichetta">Cos'è PERNO</p>
+      <h2>Quante cose di casa <em>stai ricordando a memoria?</em></h2>
+      <p>La revisione è in un promemoria, i compleanni nel calendario, gli scontrini nella chat di famiglia, la garanzia in un cassetto. Il resto lo ricordi tu, finché non te lo dimentichi.</p>
+      <p><strong>PERNO mette tutto in un posto solo</strong>, lo condivide con chi vive con te e lo ricorda al posto tuo.</p>
+    </div>
+    <div class="sparsi" id="sparsi" aria-hidden="true">
+      <div class="sparsi-scheda">
+        <div class="sparsi-testata">
+          <svg viewBox="0 0 200 200"><path d="M68 30.73A59 59 0 1 1 68 119.27Z M138 75A31 31 0 1 0 76 75A31 31 0 1 0 138 75Z" fill="#10B981" fill-rule="evenodd"/><rect x="35" y="27" width="28" height="146" rx="14" fill="var(--tratto)"/></svg>
+          <span>Casa Rossi</span>
+        </div>
+      </div>
+      <div class="foglietto" data-i="0"><span class="f-dove">Post-it sul frigo</span><span class="f-cosa">Revisione caldaia</span><span class="f-dove-poi">Manutenzione · 1 ottobre</span></div>
+      <div class="foglietto" data-i="1"><span class="f-dove">Calendario</span><span class="f-cosa">Compleanno di Giulia</span><span class="f-dove-poi">Eventi · 20 ottobre</span></div>
+      <div class="foglietto" data-i="2"><span class="f-dove">Chat di famiglia</span><span class="f-cosa">Chi ha pagato la spesa?</span><span class="f-dove-poi">Spese · conguaglio</span></div>
+      <div class="foglietto" data-i="3"><span class="f-dove">Cassetto in cucina</span><span class="f-cosa">Garanzia lavatrice</span><span class="f-dove-poi">Documenti · Garanzie</span></div>
+      <div class="foglietto" data-i="4"><span class="f-dove">Te lo ricordi tu</span><span class="f-cosa">Dove sono le chiavi di scorta</span><span class="f-dove-poi">Trova Oggetti · credenza</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ COME SI USA ============ -->
+<section class="blocco" id="come-si-usa">
+  <div class="pagina">
+    <div class="rivela">
+      <p class="etichetta">Come si usa</p>
+      <h2>Tre passi, <em>poi ci pensa PERNO.</em></h2>
+    </div>
+    <div class="passi" id="passi">
+      <ol class="passi-elenco">
+        <li><button class="passo attivo" data-video="/video/manutenzione.mp4" data-poster="/video/manutenzione.jpg" aria-pressed="true">
+          <span class="passo-numero">01</span>
+          <span class="passo-titolo">Segni le scadenze una volta</span>
+          <span class="passo-testo">Bollo, revisione, caldaia, compleanni: scrivi la data e ogni quanto si ripete. Le volte successive le calcola PERNO.</span>
+          <span class="passo-barra"><span></span></span>
+        </button></li>
+        <li><button class="passo" data-video="/video/casa.mp4" data-poster="/video/casa.jpg" aria-pressed="false">
+          <span class="passo-numero">02</span>
+          <span class="passo-titolo">Inviti chi vive con te</span>
+          <span class="passo-testo">Mandi un codice in chat, con le istruzioni già scritte. Ognuno entra col suo account e trova la stessa casa.</span>
+          <span class="passo-barra"><span></span></span>
+        </button></li>
+        <li><button class="passo" data-video="/video/spese.mp4" data-poster="/video/spese.jpg" aria-pressed="false">
+          <span class="passo-numero">03</span>
+          <span class="passo-titolo">PERNO avvisa e fa i conti</span>
+          <span class="passo-testo">Gli avvisi arrivano prima delle scadenze, solo a chi riguardano. Le spese si dividono da sole, e a fine mese sai chi deve dare cosa a chi.</span>
+          <span class="passo-barra"><span></span></span>
+        </button></li>
+      </ol>
+      <div class="telefono passi-telefono rivela"><div class="schermo"><div class="barra-stato" aria-hidden="true"><span class="ora">9:41</span><span class="foro"></span><svg class="segnali" viewBox="0 0 58 16"><path d="M8 14 1.2 7.2a9.6 9.6 0 0 1 13.6 0Z"/><path d="M19 14 31 2v12Z"/><rect x="41" y="1.5" width="8.5" height="13" rx="1.8"/><rect x="43.5" y="0" width="3.5" height="2" rx=".6"/></svg></div>
+        <video id="passi-video" muted playsinline preload="metadata" poster="/video/manutenzione.jpg" aria-label="Video dell'app per il passo scelto.">
+          <source src="/video/manutenzione.mp4" type="video/mp4">
+        </video></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ COSA FA ============ -->
+<section class="blocco" id="cosa-fa">
+  <div class="pagina">
+    <div class="rivela">
+      <p class="etichetta">Cosa fa</p>
+      <h2>Sei sezioni, <em>un'app sola.</em></h2>
+      <p class="intro">Tocca una sezione per vederla al lavoro.</p>
+    </div>
+    <div class="esploratore" id="esploratore">
+      <div class="schede-sezioni" role="tablist" aria-label="Sezioni di PERNO">
+        <button role="tab" class="scheda-sez attiva" aria-selected="true" aria-controls="pannello" data-sez="manutenzione">
+          <span class="icona"><svg viewBox="40 40 88 88" aria-hidden="true"><g fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="6"><path d="M46 81 L84 47 L122 81" stroke="var(--tratto)"/><path d="M56 73 V114 H112 V73" stroke="var(--tratto)"/><circle cx="84" cy="96" r="11" stroke="#10B981"/></g></svg></span>
+          <span>Manutenzione &amp; Home</span>
+        </button>
+        <button role="tab" class="scheda-sez" aria-selected="false" aria-controls="pannello" data-sez="eventi">
+          <span class="icona"><svg viewBox="40 40 88 88" aria-hidden="true"><g fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="6"><rect x="47" y="56" width="74" height="58" rx="11" stroke="var(--tratto)"/><path d="M47 74 H121 M66 46 V60 M108 46 V60" stroke="var(--tratto)"/></g><circle cx="83" cy="94" r="9" fill="#10B981"/></svg></span>
+          <span>Eventi</span>
+        </button>
+        <button role="tab" class="scheda-sez" aria-selected="false" aria-controls="pannello" data-sez="oggetti">
+          <span class="icona"><svg viewBox="40 40 88 88" aria-hidden="true"><g fill="none" stroke-linecap="round"><circle cx="75" cy="74.5" r="22" stroke="#10B981" stroke-width="8"/><path d="M93 92 L118 117" stroke="var(--tratto)" stroke-width="10"/></g></svg></span>
+          <span>Trova Oggetti</span>
+        </button>
+        <button role="tab" class="scheda-sez" aria-selected="false" aria-controls="pannello" data-sez="partire">
+          <span class="icona"><svg viewBox="40 40 88 88" aria-hidden="true"><g fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="6"><rect x="73" y="48" width="22" height="20" rx="5" stroke="var(--tratto)"/><rect x="48" y="66" width="68" height="52" rx="11" stroke="var(--tratto)" fill="var(--incasso)"/><path d="M46 88 H118" stroke="#10B981"/></g></svg></span>
+          <span>Prima di Partire</span>
+        </button>
+        <button role="tab" class="scheda-sez" aria-selected="false" aria-controls="pannello" data-sez="spese">
+          <span class="icona"><svg viewBox="40 40 88 88" aria-hidden="true"><path d="M83 82.5 L89.76 50.71 A32.5 32.5 0 1 1 51.61 90.91 Z" fill="#10B981"/><path d="M80.8 80.9 L49.41 89.31 A32.5 32.5 0 0 1 87.56 49.11 Z" fill="#F59E0B" stroke="var(--incasso)" stroke-width="2.5" stroke-linejoin="round" paint-order="stroke"/></svg></span>
+          <span>Spese</span>
+        </button>
+        <button role="tab" class="scheda-sez" aria-selected="false" aria-controls="pannello" data-sez="documenti">
+          <span class="icona"><svg viewBox="40 40 88 88" aria-hidden="true"><g fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="6"><rect x="65" y="42" width="49" height="62" rx="10" stroke="var(--tratto)" stroke-opacity=".42"/><path d="M68 77 H92 M68 87 H86" stroke="var(--tratto)" stroke-opacity=".42" stroke-width="5"/><rect x="50" y="54" width="48" height="62" rx="10" stroke="var(--tratto)"/><circle cx="108" cy="107" r="11.5" stroke="#10B981"/></g></svg></span>
+          <span>Documenti</span>
+        </button>
+      </div>
+      <div class="pannello" id="pannello" role="tabpanel" aria-live="polite">
+        <div class="telefono pannello-telefono"><div class="schermo"><div class="barra-stato" aria-hidden="true"><span class="ora">9:41</span><span class="foro"></span><svg class="segnali" viewBox="0 0 58 16"><path d="M8 14 1.2 7.2a9.6 9.6 0 0 1 13.6 0Z"/><path d="M19 14 31 2v12Z"/><rect x="41" y="1.5" width="8.5" height="13" rx="1.8"/><rect x="43.5" y="0" width="3.5" height="2" rx=".6"/></svg></div>
+          <video id="sez-video" muted playsinline loop preload="metadata" poster="/video/manutenzione.jpg" aria-label="Video della sezione scelta.">
+            <source src="/video/manutenzione.mp4" type="video/mp4">
+          </video></div>
+        </div>
+        <div class="pannello-testo" id="sez-testo"></div>
+      </div>
+    </div>
+    <div class="anche">
+      <div class="anche-testo rivela">
+        <p class="etichetta">E in più</p>
+        <h2>I numeri utili di casa, <em>a un tocco.</em></h2>
+        <p>Idraulico, elettricista, veterinario, portineria: li scrive uno, li trova chiunque viva in casa.</p>
+        <ul class="anche-punti">
+          <li>Si chiama con un tocco; col prefisso internazionale si apre anche la chat.</li>
+          <li>Nome e numero si prendono dalla rubrica del telefono, senza dare a PERNO l'accesso a tutta la rubrica.</li>
+        </ul>
+      </div>
+      <div class="rubrica rivela" role="img" aria-label="Esempio della rubrica di casa: Marco, idraulico; Luca Bianchi, elettricista; Dottoressa Neri, veterinaria. Ognuno con il pulsante per chiamare.">
+        <div class="rubrica-testata">
+          <span class="rubrica-icona"><svg viewBox="0 0 24 24"><path d="M22 3H2C.9 3 0 3.9 0 5v14c0 1.1.9 2 2 2h20c1.1 0 1.99-.9 1.99-2L24 5c0-1.1-.9-2-2-2zm0 16H2V5h20v14zm-2.99-1.01L21 16l-1.51-2h-1.64c-.22-.63-.35-1.3-.35-2s.13-1.37.35-2h1.64L21 8l-1.99-1.99c-1.31.98-2.28 2.37-2.73 3.99-.18.64-.28 1.31-.28 2s.1 1.36.28 2c.45 1.61 1.42 3.01 2.73 3.99zM9 12c1.65 0 3-1.35 3-3s-1.35-3-3-3-3 1.35-3 3 1.35 3 3 3zm0-4c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1zm6 8.59c0-2.5-3.97-3.58-6-3.58s-6 1.08-6 3.58V18h12v-1.41zM5.48 16c.74-.5 2.22-1 3.52-1s2.77.49 3.52 1H5.48z"/></svg></span>
+          <span class="rubrica-titolo">Contatti utili</span>
+          <span class="rubrica-casa">Casa Rossi</span>
+        </div>
+        <div class="contatto aperto">
+          <span class="contatto-iniziale" style="--c:#3B82F6">M</span>
+          <span class="contatto-dati"><strong>Marco</strong><span>Idraulico · +39&nbsp;000&nbsp;1234567</span><em>Risponde anche il sabato</em></span>
+          <span class="contatto-azioni">
+            <span class="azione azione-piena"><svg viewBox="0 0 24 24"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 0 1 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1Z"/></svg>Chiama</span>
+            <span class="azione"><svg viewBox="0 0 24 24"><path d="M12 3a9 9 0 0 0-7.8 13.5L3 21l4.6-1.2A9 9 0 1 0 12 3Zm0 16.2a7.2 7.2 0 0 1-3.7-1l-.3-.2-2.7.7.7-2.6-.2-.3A7.2 7.2 0 1 1 12 19.2Z"/></svg>Chat</span>
+          </span>
+        </div>
+        <div class="contatto">
+          <span class="contatto-iniziale" style="--c:#8B5CF6">L</span>
+          <span class="contatto-dati"><strong>Luca Bianchi</strong><span>Elettricista · +39&nbsp;000&nbsp;7654321</span></span>
+          <span class="contatto-chiama"><svg viewBox="0 0 24 24"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 0 1 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1Z"/></svg></span>
+        </div>
+        <div class="contatto">
+          <span class="contatto-iniziale" style="--c:#F59E0B">N</span>
+          <span class="contatto-dati"><strong>Dottoressa Neri</strong><span>Veterinaria · +39&nbsp;000&nbsp;1112233</span></span>
+          <span class="contatto-chiama"><svg viewBox="0 0 24 24"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 0 1 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1Z"/></svg></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PERCHÉ ============ -->
+<section class="blocco" id="perche">
+  <div class="pagina">
+    <div class="rivela">
+      <p class="etichetta">Perché PERNO</p>
+      <h2>Meno cose da ricordare, <em>meno discussioni.</em></h2>
+    </div>
+    <div class="ragioni">
+      <article class="ragione rivela"><span class="r-segno">1</span><h3>Un'app al posto di cinque</h3><p>Calendario, note, chat, cassetti e memoria: quello che oggi è sparso sta in un posto solo, ed è lo stesso per tutti.</p></article>
+      <article class="ragione rivela"><span class="r-segno">2</span><h3>Pensata per chi vive insieme</h3><p>Coppie, famiglie, coinquilini. Ognuno col suo account, ognuno vede quello che lo riguarda, e nessuno deve fare il segretario degli altri.</p></article>
+      <article class="ragione rivela"><span class="r-segno">3</span><h3>Ti avvisa prima, non dopo</h3><p>Una scadenza dimenticata si scopre quando è tardi. PERNO te la ricorda una settimana prima e il giorno stesso.</p></article>
+      <article class="ragione rivela"><span class="r-segno">4</span><h3>I conti tornano da soli</h3><p>Ogni spesa dice chi ha pagato e come si divide. A fine mese il conguaglio usa il minor numero di passaggi di denaro.</p></article>
+      <article class="ragione rivela"><span class="r-segno">5</span><h3>I tuoi dati restano tuoi</h3><p>Niente pubblicità e niente tracciamento. I dati stanno su server in Europa, e li cancelli dall'app quando vuoi.</p></article>
+      <article class="ragione rivela"><span class="r-segno">6</span><h3>Funziona anche senza rete</h3><p>Quello che scrivi offline si salva e si sincronizza da solo appena torni online.</p></article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ DOMANDE ============ -->
+<section class="blocco" id="domande">
+  <div class="pagina domande">
+    <div class="rivela">
+      <p class="etichetta">Domande</p>
+      <h2>Quello che <em>ci chiedono più spesso.</em></h2>
+    </div>
+    <div class="faq">
+      <details class="rivela"><summary>Quanto costa?</summary><p>PERNO si scarica gratis.</p></details>
+      <details class="rivela"><summary>Posso usarla anche da solo?</summary><p>Sì. Una Casa può avere una persona sola, e gli altri li inviti quando vuoi, anche dopo mesi. Le scadenze di casa che hai già scritto le vedranno anche loro.</p></details>
+      <details class="rivela"><summary>Chi vede le mie cose?</summary><p>Solo le persone della tua Casa, e solo quello che scegli. Una scadenza può essere rivolta a te, ad alcune persone o a tutta la Casa; un oggetto o un documento può essere visibile solo a chi indichi. Lo garantiscono i server, non solo l'app.</p></details>
+      <details class="rivela"><summary>Dove finiscono i miei dati?</summary><p>Su server in Europa, in Belgio. Niente pubblicità, niente statistiche d'uso, nessuna vendita a terzi. Puoi cancellare l'account e tutti i tuoi dati direttamente dall'app. I dettagli sono nella <a href="/privacy/">privacy</a>.</p></details>
+      <details class="rivela"><summary>E se qualcuno lascia la Casa?</summary><p>Quello che ha condiviso resta agli altri: scadenze, spese, documenti. Quello che aveva tenuto solo per sé se ne va con lui.</p></details>
+      <details class="rivela"><summary>Quando esce?</summary><p>Presto. Segui <a href="https://www.instagram.com/pernoapp/">@pernoapp</a> su Instagram per sapere il giorno.</p></details>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CHIUSURA ============ -->
+<section class="chiusura">
+  <div class="pagina chiusura-dentro rivela">
+    <svg viewBox="30 12 142 166" class="chiusura-marchio" aria-hidden="true">
+      <path d="M68 30.73A59 59 0 1 1 68 119.27Z M138 75A31 31 0 1 0 76 75A31 31 0 1 0 138 75Z" fill="#10B981" fill-rule="evenodd"/>
+      <rect x="35" y="27" width="28" height="146" rx="14" fill="#E2E8F0"/>
+    </svg>
+    <p class="chiusura-frase">Una casa. <em>Ogni cosa al suo posto.</em></p>
+    <span class="pillola pillola-scura">In arrivo su Android e iOS</span>
+    <p class="chiusura-social">Segui <a href="https://www.instagram.com/pernoapp/">@pernoapp</a> per sapere quando esce.</p>
+  </div>
+</section>
+
+<section class="blocco contatti" id="contatti">
+  <div class="pagina rivela">
+    <p class="etichetta">Contatti</p>
+    <h2>Domande, segnalazioni, idee.</h2>
+    <p class="contatti-riga">Scrivi a <a href="mailto:perno.app9@gmail.com">perno.app9@gmail.com</a>, oppure su Instagram a <a href="https://www.instagram.com/pernoapp/">@pernoapp</a>.</p>
+  </div>
+</section>
+
+</main>
+
+<footer class="piede">
+  <div class="pagina piede-dentro">
+    <span>© 2026 PERNO</span>
+    <nav aria-label="Link legali">
+      <a href="/privacy/">Privacy</a>
+      <a href="/termini/">Termini e Condizioni</a>
+      <a href="https://www.instagram.com/pernoapp/">Instagram</a>
+    </nav>
+  </div>
+</footer>
+
+<script src="/sito.js" defer></script>
+</body>
+</html>
