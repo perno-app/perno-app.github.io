@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PERNO — Assistenza</title>
+<meta name="description" content="Come contattare PERNO e le risposte alle domande più comuni.">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/caratteri/caratteri.css">
+<style>
+  :root {
+    --fondo: #F5F6F3;
+    --scheda: #FFFFFF;
+    --bordo: #E3E6E1;
+    --testo: #1E293B;
+    --testo-2: #5E6B67;
+    --verde: #10B981;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --fondo: #0F172A;
+      --scheda: #1E293B;
+      --bordo: #334155;
+      --testo: #F8FAFC;
+      --testo-2: #94A3B8;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--fondo);
+    color: var(--testo);
+    font: 400 17px/1.6 "Hanken Grotesk", system-ui, sans-serif;
+  }
+  main { max-width: 720px; margin: 0 auto; padding: 40px 16px 64px; }
+  header { display: flex; align-items: center; gap: 12px; margin-bottom: 32px; }
+  header a { display: flex; align-items: center; gap: 12px; text-decoration: none; }
+  header svg { width: 36px; height: 36px; flex: none; }
+  header span { font-weight: 600; letter-spacing: 0.2em; font-size: 15px; }
+  h1, h2 { font-family: "Newsreader", Georgia, serif; font-weight: 500; line-height: 1.2; }
+  h1 { font-size: 36px; margin: 0 0 8px; }
+  h2 { font-size: 24px; margin: 40px 0 12px; }
+  .meta { font: 500 13px/1.5 "IBM Plex Mono", monospace; color: var(--testo-2); margin: 0 0 32px; }
+  .contatto {
+    background: var(--scheda); border: 1px solid var(--bordo); border-radius: 14px;
+    padding: 20px 24px;
+  }
+  .contatto p { margin: 6px 0; }
+  .indirizzo { font-size: 20px; font-weight: 600; }
+  details {
+    background: var(--scheda); border: 1px solid var(--bordo); border-radius: 14px;
+    padding: 14px 20px; margin: 10px 0;
+  }
+  summary { font-weight: 600; cursor: pointer; }
+  details p, details ul { margin: 10px 0 4px; }
+  details li { margin: 4px 0; }
+  a { color: inherit; text-decoration-color: var(--verde); text-underline-offset: 3px; }
+  footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--bordo);
+    font: 500 13px/1.5 "IBM Plex Mono", monospace; color: var(--testo-2); }
+  footer a { margin-right: 16px; }
+</style>
+</head>
+<body>
+<main>
+
+<header>
+  <a href="/">
+    <svg viewBox="0 0 200 200" aria-hidden="true">
+      <path d="M68 30.73A59 59 0 1 1 68 119.27Z M76 75a31 31 0 1 0 62 0a31 31 0 1 0 -62 0Z" fill="#10B981" fill-rule="evenodd"/>
+      <rect x="35" y="27" width="28" height="146" rx="14" fill="currentColor"/>
+    </svg>
+    <span>PERNO</span>
+  </a>
+</header>
+
+<h1>Assistenza</h1>
+<p class="meta">Ultimo aggiornamento: 10 ottobre 2026</p>
+
+<div class="contatto" id="contatti">
+  <p>Per un problema, una domanda o una segnalazione scrivi a</p>
+  <p class="indirizzo"><a href="mailto:perno.app9@gmail.com">perno.app9@gmail.com</a></p>
+  <p>Dall'app fai prima: <em>Impostazioni → Contattaci</em> apre un'email già indirizzata, con la versione dell'app.</p>
+  <p>Puoi anche scriverci su Instagram, a <a href="https://www.instagram.com/pernoapp/">@pernoapp</a>.</p>
+</div>
+
+<h2>Domande frequenti</h2>
+
+<details id="invitare">
+  <summary>Come faccio entrare qualcuno nella mia Casa?</summary>
+  <p>Chi amministra la Casa, da <em>Impostazioni → Membri della Casa → Invita un membro</em>, crea un codice d'invito e lo manda alla persona con WhatsApp, un messaggio o un'email. Lei scarica PERNO, si registra e tocca <em>Ho già un invito</em>, poi incolla il codice.</p>
+  <p>Il codice vale 7 giorni e si usa una volta sola. Se è scaduto, creane uno nuovo.</p>
+</details>
+
+<details id="password">
+  <summary>Ho dimenticato la password.</summary>
+  <p>Nella schermata di accesso tocca <em>Password dimenticata?</em>: arriva un'email con il link per sceglierne una nuova. Se l'email non arriva, guarda nella posta indesiderata.</p>
+  <p>Se ti eri registrato con Google o con Apple, la password di PERNO non c'è: entra con lo stesso pulsante che avevi usato.</p>
+</details>
+
+<details id="avvisi">
+  <summary>Non mi arrivano gli avvisi.</summary>
+  <p>Controlla due cose:</p>
+  <ul>
+    <li>che le notifiche di PERNO siano accese nelle impostazioni del telefono. Se sono spente, l'app lo dice in <em>Impostazioni → Avvisi</em> e ti porta al punto giusto;</li>
+    <li>in <em>Impostazioni → Avvisi</em>, quali avvisi hai scelto di ricevere, sezione per sezione.</li>
+  </ul>
+  <p>Gli avvisi arrivano solo a chi riguardano: una scadenza rivolta a un'altra persona della Casa avvisa lei, non te.</p>
+</details>
+
+<details id="documenti">
+  <summary>Perché per aprire i Documenti serve lo sblocco del telefono?</summary>
+  <p>Per proteggerli: polizze, referti e documenti d'identità si aprono solo dopo impronta, volto o codice del telefono. Lo sblocco lo verifica il telefono: PERNO non vede e non conserva l'impronta né il volto.</p>
+</details>
+
+<details id="lasciare">
+  <summary>Come lascio una Casa?</summary>
+  <p>Da <em>Impostazioni → Membri della Casa → Lascia questa Casa</em>. Quello che hai condiviso resta agli altri; quello che avevi tenuto solo per te viene cancellato. Il tuo account resta, e puoi crearti una Casa tua.</p>
+  <p>Chi ha creato la Casa non può lasciarla: può scioglierla, da <em>Impostazioni → Sciogli la Casa</em>.</p>
+</details>
+
+<details id="cancellare">
+  <summary>Come cancello l'account e i miei dati?</summary>
+  <p>Dall'app: <em>Impostazioni → Cancella il tuo account</em>. Se non hai ancora una Casa, lo trovi in fondo alla schermata che ti chiede se qualcuno di casa tua usa già PERNO. Tutti i dettagli sono nella <a href="/privacy/#cancellare-account">privacy</a>.</p>
+  <p>Se non riesci più ad accedere, scrivi a <a href="mailto:perno.app9@gmail.com">perno.app9@gmail.com</a> dall'indirizzo con cui sei registrato: la cancellazione la facciamo noi.</p>
+</details>
+
+<details id="email-apple">
+  <summary>Mi sono registrato con Apple e vedo un indirizzo strano.</summary>
+  <p>Se con «Accedi con Apple» hai scelto di nascondere la tua email, Apple dà a PERNO un indirizzo che finisce con <em>privaterelay.appleid.com</em> e inoltra a te la posta. È normale: la tua email vera resta privata.</p>
+</details>
+
+<details id="dati">
+  <summary>Dove stanno i miei dati, e chi li vede?</summary>
+  <p>Su server in Europa, in Belgio. Li vedono solo le persone della tua Casa, e solo quello che scegli di condividere con loro. Niente pubblicità, niente statistiche d'uso. Tutto nella <a href="/privacy/">privacy</a>.</p>
+</details>
+
+<footer>
+  <a href="/">pernoapp.com</a>
+  <a href="/privacy/">Privacy</a>
+  <a href="/termini/">Termini e Condizioni</a>
+</footer>
+
+</main>
+</body>
+</html>
