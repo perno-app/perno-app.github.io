@@ -4,9 +4,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>PERNO — La memoria di casa</title>
-<meta name="description" content="Scadenze, spese, documenti e oggetti in un'app sola, condivisa con chi vive con te. PERNO ricorda, avvisa e fa i conti. Gratis su App Store e Google Play.">
+<meta name="description" content="Scadenze, spese, documenti, oggetti, lista della spesa e faccende in un'app sola, condivisa con chi vive con te. PERNO ricorda, avvisa e fa i conti. Gratis su App Store e Google Play.">
 <meta property="og:title" content="PERNO — La memoria di casa">
-<meta property="og:description" content="Scadenze, spese, documenti e oggetti in un'app sola, condivisa con chi vive con te.">
+<meta property="og:description" content="Scadenze, spese, documenti, oggetti, lista della spesa e faccende in un'app sola, condivisa con chi vive con te.">
 <meta property="og:url" content="https://pernoapp.com/">
 <meta property="og:type" content="website">
 <meta property="og:image" content="https://pernoapp.com/immagini/home.webp">
@@ -62,7 +62,7 @@
         </div>
       </div>
       <h1>La memoria di casa, <em>condivisa con chi ci vive.</em></h1>
-      <p class="sotto">Bollo, caldaia, compleanni, spese, documenti, le chiavi di scorta. PERNO tiene tutto in un posto, ti avvisa prima che sia tardi e fa i conti con chi vive con te.</p>
+      <p class="sotto">Bollo, caldaia, compleanni, spese, documenti, la lista della spesa, i turni delle faccende, le chiavi di scorta. PERNO tiene tutto in un posto, ti avvisa prima che sia tardi e fa i conti con chi vive con te.</p>
       <div class="azioni">
         <div class="negozi">
           <a href="https://apps.apple.com/app/id6820141567"><img src="/immagini/badge-app-store.svg" alt="Scarica su App Store" width="144" height="48"></a>
@@ -72,7 +72,7 @@
       </div>
     </div>
     <div class="telefono telefono-grande entra"><div class="schermo"><div class="barra-stato" aria-hidden="true"><span class="ora">9:41</span><span class="foro"></span><svg class="segnali" viewBox="0 0 58 16"><path d="M8 14 1.2 7.2a9.6 9.6 0 0 1 13.6 0Z"/><path d="M19 14 31 2v12Z"/><rect x="41" y="1.5" width="8.5" height="13" rx="1.8"/><rect x="43.5" y="0" width="3.5" height="2" rx=".6"/></svg></div>
-      <video class="video-auto" muted playsinline loop preload="metadata" poster="/immagini/home.webp" aria-label="PERNO si apre con il logo e mostra la Home: le scadenze in arrivo e le sei sezioni.">
+      <video class="video-auto" muted playsinline loop preload="metadata" poster="/immagini/home.webp" aria-label="PERNO si apre con il logo e mostra la Home: le scadenze in arrivo e le otto sezioni.">
         <source src="/video/avvio.mp4" type="video/mp4">
       </video></div>
     </div>
@@ -143,7 +143,7 @@
 <section class="blocco" id="cosa-fa">
   <div class="pagina">
     <div class="rivela">
-      <h2>Sei sezioni, un'app sola.</h2>
+      <h2>Otto sezioni, un'app sola.</h2>
       <p class="intro">Tocca una sezione per vederla al lavoro.</p>
     </div>
     <div class="esploratore" id="esploratore">
@@ -171,6 +171,14 @@
         <button role="tab" class="scheda-sez" aria-selected="false" aria-controls="pannello" data-sez="documenti">
           <span class="icona"><svg viewBox="40 40 88 88" aria-hidden="true"><g fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="6"><rect x="65" y="42" width="49" height="62" rx="10" stroke="var(--tratto)" stroke-opacity=".42"/><path d="M68 77 H92 M68 87 H86" stroke="var(--tratto)" stroke-opacity=".42" stroke-width="5"/><rect x="50" y="54" width="48" height="62" rx="10" stroke="var(--tratto)"/><circle cx="108" cy="107" r="11.5" stroke="#10B981"/></g></svg></span>
           <span>Documenti</span>
+        </button>
+        <button role="tab" class="scheda-sez" aria-selected="false" aria-controls="pannello" data-sez="spesa">
+          <span class="icona"><svg viewBox="16 18 88 88" aria-hidden="true"><g fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="6"><path d="M28 50H92L86 98H34Z" stroke="var(--tratto)"/><path d="M46 50V42A14 14 0 0 1 74 42V50" stroke="var(--tratto)"/><path d="M61 65 67 58" stroke="#10B981" stroke-width="5"/></g><circle cx="60" cy="77" r="11" fill="#10B981"/></svg></span>
+          <span>Lista della spesa</span>
+        </button>
+        <button role="tab" class="scheda-sez" aria-selected="false" aria-controls="pannello" data-sez="faccende">
+          <span class="icona"><svg viewBox="16 16 88 88" aria-hidden="true"><g fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="6"><path d="M29.9 49.06A32 32 0 0 1 90.07 49.06M94.2 37.8 90.07 49.06 79.7 43.06" stroke="var(--tratto)"/><path d="M90.07 70.94A32 32 0 0 1 29.93 70.94M25.8 82.2 29.93 70.94 40.3 76.94" stroke="#10B981"/></g></svg></span>
+          <span>Faccende</span>
         </button>
       </div>
       <div class="pannello" id="pannello" role="tabpanel" aria-live="polite">

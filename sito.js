@@ -187,7 +187,7 @@
   if (fermo) preparaFermo(videoPassi);
   else quandoVisibile(videoPassi, function () { passiVisibili = true; suona(videoPassi); }, function () { passiVisibili = false; videoPassi.pause(); });
 
-  // ---------- Cosa fa: le sei sezioni ----------
+  // ---------- Cosa fa: le otto sezioni ----------
   var SEZIONI = {
     manutenzione: {
       titolo: "Manutenzione & Home",
@@ -241,6 +241,24 @@
         "PDF e foto, divisi per categoria, con una ricerca propria.",
         "Per entrare serve lo sblocco del telefono: impronta, volto o codice.",
         "Un documento lo vede tutta la Casa, oppure solo le persone che scegli."
+      ]
+    },
+    spesa: {
+      titolo: "Lista della spesa",
+      riga: "Una lista sola per tutta la Casa: quando qualcuno spunta, gli altri lo vedono subito.",
+      punti: [
+        "Si scrive in fondo e si preme Invio: anche tante cose di fila, o un elenco incollato.",
+        "Quello che hai preso passa in «Di solito»: un tocco e torna in lista.",
+        "Finita la spesa, l'importo si segna in Spese con categoria e data già scritte."
+      ]
+    },
+    faccende: {
+      titolo: "Faccende",
+      riga: "I lavori di casa e a chi tocca: i turni girano da soli.",
+      punti: [
+        "A giorni fissi ogni settimana, ogni due o ogni quattro, oppure «quando serve».",
+        "A turno, sempre la stessa persona o chi ha tempo. Se la fai al posto di un altro, lo segni con un tocco.",
+        "Ogni mese vedete come vi siete divisi la fatica; toccando un nome, cosa ha fatto ciascuno."
       ]
     }
   };
